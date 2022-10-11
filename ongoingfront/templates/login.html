@@ -13,20 +13,20 @@
     <title>Login</title>
 </head>
 <body>
-    <div id="navbar">
+    <header id="navbar">
         <img class="americanasLogo" src="{% static 'login/img/americanasLogo.svg' %}" alt="">
         <h1>Ongoing</h1>
-    </div>
-    <div id="main">
+    </header>
+    <main id="main">
         <div class="card">
             <h1>Login</h1>
             <p> Por favor preencha o dados abaixo para começar!</p>
             <input type="text" name="username" id="username" placeholder="Usuário">
             <input type="password" name="password" id="password" placeholder="Senha">
-            <button class="btnLogin">Entrar</button>
+            <a href="http://127.0.0.1:8000/ongoingfront/painel/"><button class="btnLogin">Entrar</button></a>
             <a class="links" href="/">Esqueceu a senha? Clique aqui</a>
         </div>
-    </div>
+    </main>
 
 </body>
 </html>

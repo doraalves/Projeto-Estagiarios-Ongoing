@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    
+}
+
 body{
     overflow: hidden;
     height: 100vh;
@@ -123,6 +128,7 @@ input::placeholder{
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
+
 
 .btnLogin:hover{
     background-color: #e0111187;
